@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/jw.png" alt="Justin Wang">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Justin Wang">Justin Wang</h1>
+
+          <!-- <p class="title">Web developer</p> -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:justinwangma@gmail.com" class="contact-link">justinwangma@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17813230019" class="contact-link">+1 (781) 323-0019</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Lexington, Massachusetts, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Honors &amp; Awards</button>
+          </li>
+
+          <li class="navbar-item" style="display: none;">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>App Dev</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Fencing</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Photography</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Writing</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item" style="display: none;">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+
+
+      <article class="resume active" data-page="honors &amp; awards">
+        <header>
+          <h2 class="h2 article-title">Honors &amp; Awards</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Awards</h3>
+          </div>
+
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <a class="timeline-text" href="https://www.congressionalappchallenge.us/25-ma05/" target="_blank" rel="noopener noreferrer">
+                Congressional App Challenge 2025 — 1st Place Winner, Massachusetts
+              </a>
+            </li>
+            <li class="timeline-item">
+              <a class="timeline-text" href="https://orise.orau.gov/si-challenge/winners/2026/state.html" target="_blank" rel="noopener noreferrer">
+                Presidential AI Challenge 2026 — 1st Place High School State Champion, Massachusetts
+              </a>
+            </li>
+            <li class="timeline-item">
+              <a class="timeline-text" href="https://www.youtube.com/watch?v=2pX1SoykMR4" target="_blank" rel="noopener noreferrer">
+                MIT Global AI Hackathon 2024 — 1st Place Youth Team Winner
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <a class="timeline-text" href="https://arxiv.org/abs/2503.23299" target="_blank" rel="noopener noreferrer">
+                GRASP: Municipal Budget AI Chatbots for Enhancing Civic Engagement
+              </a>
+            </li>
+            <li class="timeline-item">
+              <a class="timeline-text" href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70525" target="_blank" rel="noopener noreferrer">
+                Characterizing cognitive concerns in subjective cognitive decline using LLM and EHR notes
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research & Publication</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App Developement</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Teaching & Mentoring</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research & Publication</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App Developement</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Teaching & Mentoring</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="research & publication">
+              <a href="https://arxiv.org/abs/2503.23299" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/grasp.png" alt="LHPS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://arxiv.org/abs/2503.23299" target="_blank" rel="noopener noreferrer">GRASP: Municipal Budget AI Chatbots for Enhancing Civic Engagement  </a></h3>
+                <h3 class="project-title"><a href="https://arxiv.org/abs/2503.23299" target="_blank" rel="noopener noreferrer">2024 IEEE International Conference on Big Data, Washington DC, USA</a></h3>
+
+                <p class="project-category">research & publication</p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research & publication">
+              <a href="https://dspace.mit.edu/handle/1721.1/163149" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AI4Community.png" alt="LHPS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://dspace.mit.edu/handle/1721.1/163149" target="_blank" rel="noopener noreferrer">AI for Community: A Student-Led Initiative Promoting Sustainability Awareness Through App Development and Community Engagement  </a></h3>
+                <h3 class="project-title"><a href="https://dspace.mit.edu/handle/1721.1/163149" target="_blank" rel="noopener noreferrer">2025 MIT AI & Education Summit</a></h3>
+
+                <p class="project-category">research & publication</p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app developement">
+              <a href="https://www.youtube.com/watch?v=009fwAA44wU" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/signlingo.png" alt="SignLingo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://www.youtube.com/watch?v=009fwAA44wU" target="_blank" rel="noopener noreferrer">SignLingo - MIT Global AI Hackathon 2024 - Youth Team Winner</a></h3>
+
+                <p class="project-category">App Developement</p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app developement">
+              <a href="https://chat.youthsteaminitiative.org/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/LHS-chatbot.png" alt="LHPS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://chat.youthsteaminitiative.org/" target="_blank" rel="noopener noreferrer">Lexington High School Building Project Chatbot</a></h3>
+
+                <p class="project-category">App Developement</p>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="resume" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <div style="display: flex; gap: 16px; margin-bottom: 30px; height: 250px;">
+
+          <figure style="flex: 1; border-radius: 16px; overflow: hidden; margin: 0;">
+            <img src="./assets/images/PXL_20260707.jpg" alt="Research" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
+          </figure>
+
+          <figure style="flex: 1; border-radius: 16px; overflow: hidden; margin: 0;">
+            <img src="./assets/images/PXL_20250717.jpg" alt="Research" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
+          </figure>
+
+        </div>
+
+        <!-- Research Experience -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Research Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Student Researcher — Harvard Medical School &amp; Brigham and Women's Hospital</h4>
+                <span style="flex-shrink: 0;">June 2024 — Present</span>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px; font-weight: 600; color: var(--light-gray-70);">AI-Driven Detection of Subjective Cognitive Decline</p>
+              <ul style="list-style-type: disc; margin-left: 20px; color: white; margin-top: 4px;">
+                <li>Developed an NLP pipeline using Python, Llama 3.1, and GPT-4o to classify cognitive concerns from unstructured clinical notes.</li>
+                <li>Analyzed 11,000+ patient concern texts against expert-labeled validation data, achieving an F1 score above 0.8 and contributing to a manuscript currently under review.</li>
+              </ul>
+
+              <p class="timeline-text" style="margin-top: 12px; font-weight: 600; color: var(--light-gray-70);">Latency Patterns in Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis</p>
+              <ul style="list-style-type: disc; margin-left: 20px; color: white; margin-top: 4px;">
+                <li>Co-led a systematic review of 756 SJS/TEN case reports to study latency between drug exposure and severe adverse reactions.</li>
+                <li>Performed statistical analysis in R, including Kruskal-Wallis testing, and contributed to data curation, visualization, and manuscript preparation.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Research Assistant — Columbia University Irving Medical Center</h4>
+                <span style="flex-shrink: 0;">August 2025 — Present</span>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px; font-weight: 600; color: var(--light-gray-70);">Machine Learning for Solid Cancer Incidence in Atomic-Bomb Survivors</p>
+              <ul style="list-style-type: disc; margin-left: 20px; color: white; margin-top: 4px;">
+                <li>Evaluated XGBoost, CatBoost, TabICL, stacking ensembles, and conformal prediction against traditional Poisson radiation-risk models using Life Span Study data.</li>
+                <li>Helped adapt machine learning models to account for person-years of exposure and assess whether flexible AI models could recover meaningful radiation dose-response patterns.</li>
+              </ul>
+
+              <p class="timeline-text" style="margin-top: 12px; font-weight: 600; color: var(--light-gray-70);">Causal Machine Learning: Atomic-Bomb Survivor Mortality Study</p>
+              <ul style="list-style-type: disc; margin-left: 20px; color: white; margin-top: 4px;">
+                <li>Applied Double/Debiased Machine Learning and Causal Forest methods to Life Span Study mortality data to evaluate radiation dose-response relationships for all-cause and solid tumor mortality.</li>
+                <li>Used model validation, bootstrap simulations, and refutation tests to assess robustness and identify possible subgroup differences in radiation sensitivity.</li>
+              </ul>
+
+              <p class="timeline-text" style="margin-top: 12px; font-weight: 600; color: var(--light-gray-70);">Causal Machine Learning: U.S. Nuclear Worker Cohorts</p>
+              <ul style="list-style-type: disc; margin-left: 20px; color: white; margin-top: 4px;">
+                <li>Applied causal machine learning methods to longitudinal data from Oak Ridge, Hanford, and multi-facility nuclear worker cohorts to study chronic low-dose occupational radiation exposure.</li>
+                <li>Used Longitudinal Modified Treatment Policies and Causal Forests with survival weighting to evaluate whether prolonged exposure had a detectable causal effect on all-cause mortality.</li>
+              </ul>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Manuscripts Under Review -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Manuscripts Under Review</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <p class="timeline-text">Chen, T., <strong>Wang, J.</strong>, Varghese, S., Tian, J., Amariglio, R. E., Zhou, L., Marshall, G. A., &amp; Wang, L. "Cognitive Concerns in Subjective Cognitive Decline: Insights from Clinical Notes"</p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">Varghese, S., <strong>Wang, J.</strong>, Blumenthal, K. G., Kroshinsky, D., Phillips, E. J., Zhou, L., &amp; Wang, L. "Exploring Latency Patterns in Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis: A Systematic Review of Case Reports from the Literature"</p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">Shuryak, I., Liu, Z., Wang, E., <strong>Wang, J.</strong>, Wu, X., Ullrich, R. L., Brenner, A. V., Misumi, M., &amp; Brenner, D. J. "Causal Machine Learning for Radiation Epidemiology: A Proof-of-Principle Application to Mortality in Japanese Atomic-Bomb Survivors"</p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">Shuryak, I., Wang, E., <strong>Wang, J.</strong>, Vasishtha, R., Sondhi, A., &amp; Brenner, D. J. "Causal Machine Learning for Occupational Radiation Exposure and Mortality in U.S. Nuclear Worker Cohorts"</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Conference Presentations -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="mic-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Conference Presentations</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <p class="timeline-text">"A Design Framework for Dual-Use AI Voices in Elder Care" — MIT App Inventor Global Education Summit, 2026</p>
+            </li>
+
+            <li class="timeline-item">
+              <a href="https://dspace.mit.edu/handle/1721.1/163149" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola);">
+                <p class="timeline-text">"AI for Community: A Student-Led Initiative Promoting Sustainability Awareness Through App Development and Community Engagement" — MIT AI &amp; Education Summit, 2025</p>
+              </a>
+            </li>
+
+            <li class="timeline-item">
+              <a href="https://arxiv.org/abs/2503.23299" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola);">
+                <p class="timeline-text">"GRASP: Municipal Budget AI Chatbots for Enhancing Civic Engagement" — IEEE Big Data Conference, 2024</p>
+              </a>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #APP DEV
+      -->
+
+      <article class="portfolio" data-page="app dev">
+
+        <header>
+          <h2 class="h2 article-title">App Dev</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="app developement">
+              <a href="https://orise.orau.gov/ai-challenge/winners/2026/state.html" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img" style="height: 130px;">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/paic.jpg" alt="Presidential AI Challenge" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Presidential AI Challenge 2026 — 1st Place High School State Champion, Massachusetts</h3>
+
+                <p class="project-category" style="font-size: 13px; color: var(--light-gray); margin-top: 8px; line-height: 1.6;">
+                  Built a nonpartisan civic engagement chatbot that answered 2,500+ resident inquiries ahead of the Lexington High School building project tax-exemption vote.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="app developement">
+              <a href="https://www.congressionalappchallenge.us/25-ma05/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img" style="height: 130px;">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AppChallenge-1024x204-1.jpg" alt="Congressional App Challenge" loading="lazy" style="object-fit: contain; background: #1e1e1e;">
+                </figure>
+
+                <h3 class="project-title">Congressional App Challenge 2025 — 1st Place Winner, Massachusetts</h3>
+
+                <p class="project-category" style="font-size: 13px; color: var(--light-gray); margin-top: 8px; line-height: 1.6;">
+                  Created an AI-powered senior care app designed to improve safety and companionship for older adults; invited to Capitol Hill for the national House of Code.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="app developement">
+              <a href="https://www.youtube.com/watch?v=2pX1SoykMR4" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img" style="height: 130px;">
+                  <div class="project-item-icon-box" style="pointer-events:none;">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MIT_Global_AI_Hackathon_2024_logo.png" alt="MIT Global AI Hackathon" loading="lazy" style="object-fit: contain; background: #1e1e1e;">
+                </figure>
+
+                <h3 class="project-title">MIT Global AI Hackathon 2024 — 1st Place Youth Team Winner</h3>
+
+                <p class="project-category" style="font-size: 13px; color: var(--light-gray); margin-top: 8px; line-height: 1.6;">
+                  Developed a bidirectional ASL translation mobile app to support communication with the Deaf and hard-of-hearing community.
+                </p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #FENCING
+      -->
+
+      <article class="resume" data-page="fencing">
+
+        <header>
+          <h2 class="h2 article-title">Fencing</h2>
+        </header>
+
+        <div style="display: flex; gap: 16px; margin-bottom: 30px;">
+
+          <figure style="flex: 1; border-radius: 16px; overflow: hidden; margin: 0;">
+            <img src="./assets/images/20250216_JO.jpg" alt="Junior Olympics Podium" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
+          </figure>
+
+          <div style="flex: 1; border-radius: 16px; overflow: hidden;">
+            <iframe src="https://www.youtube.com/embed/du-ahcqni98" title="Fencing Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%; min-height: 250px; border-radius: 16px;"></iframe>
+          </div>
+
+        </div>
+
+        <!-- Rating & Ranking -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="stats-chart-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Rating &amp; Ranking</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-text">Rating: A26</p></li>
+            <li class="timeline-item"><p class="timeline-text">Club: Cavalier Fencing Club</p></li>
+            <li class="timeline-item"><p class="timeline-text">National Rankings: Division I — 77th | Junior — 59th</p></li>
+          </ol>
+
+        </section>
+
+        <!-- Key Results -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Key Results — USA Fencing National Men's Epee</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-text"><strong>Bronze Medal</strong> — 2025 USA Fencing Junior Olympics, Cadet</p></li>
+            <li class="timeline-item"><p class="timeline-text">32nd — 2026 February NAC, Division I; top 4 nationally among Class of 2027 fencers</p></li>
+            <li class="timeline-item"><p class="timeline-text">57th — 2025 November NAC, Division I; top 8 nationally among Class of 2027 fencers</p></li>
+            <li class="timeline-item"><p class="timeline-text">48th — 2025 October NAC, Division I; top 8 nationally among Class of 2027 fencers</p></li>
+            <li class="timeline-item"><p class="timeline-text">49th — 2026 Summer Nationals and July Challenge, Junior</p></li>
+            <li class="timeline-item"><p class="timeline-text">15th — 2026 Summer Nationals and July Challenge, Division IA</p></li>
+            <li class="timeline-item"><p class="timeline-text">22nd — 2025 Summer Nationals and July Challenge, Division IA</p></li>
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+      <!--
+        - #PHOTOGRAPHY
+      -->
+
+      <article class="portfolio" data-page="photography">
+
+        <header>
+          <h2 class="h2 article-title">Photography</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px;">
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0138.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0138.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0305.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0305.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0340.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0340.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0381.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0381.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0430.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0430.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0496.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0496.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0528.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0528.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_0560.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_0560.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_3378.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_3378.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_3486.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_3486.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_7839.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_7839.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+            <li class="project-item active">
+              <a href="./photos/DSC_8211.JPG" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img" style="height: 160px;">
+                  <img src="./photos/DSC_8211.JPG" alt="Photo" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                </figure>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="writing">
+
+        <header>
+          <h2 class="h2 article-title">Writing</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- Row 1: Musket image + description side by side -->
+          <a href="https://lhsmusket.com/staff_name/justin-wang/" target="_blank" rel="noopener noreferrer"
+             style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px; text-decoration: none;">
+
+            <figure style="flex-shrink: 0; width: 180px; height: 120px; border-radius: 10px; overflow: hidden; background: var(--border-gradient-onyx);">
+              <img src="./assets/images/musket.png" alt="LHS Musket Newspaper" loading="lazy"
+                   style="width: 100%; height: 100%; object-fit: cover;">
+            </figure>
+
+            <div>
+              <h3 class="project-title" style="margin-bottom: 6px;">Lexington High School Musket Newspaper — STEM/ Sports Editor</h3>
+              <p style="font-size: 13px; color: var(--light-gray); line-height: 1.7;">
+                Planned, assigned, and edited 100+ articles for accuracy, clarity, and publication quality.<br>
+                Managed section deadlines and covered school events through firsthand reporting and interviews.
+              </p>
+            </div>
+
+          </a>
+
+          <!-- Rows 2 & 3: Scholastic and YDRC -->
+          <div class="resume-section">
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Scholastic Art &amp; Writing Awards — Silver Keys in Poetry and Journalism</h4>
+                <span>2026</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Youth Development Resource Consortium — Writing Mentor &amp; Competition Judge</h4>
+                <span>2022–2025</span>
+                <p class="timeline-text">Mentored 50+ students through competitive writing boot camps.</p>
+                <p class="timeline-text">Served on the judging panel for the annual writing competition for three consecutive years.</p>
+              </li>
+
+            </ol>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Lexington High School</h4>
+                <span style="flex-shrink: 0;">2023 — 2027</span>
+              </div>
+              <p class="timeline-text">GPA (unweighted): 4.0 &nbsp;|&nbsp; SAT: 1570 (Math: 790, EBRW: 780)</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Research Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Student Researcher — Harvard Medical School &amp; Brigham and Women's Hospital</h4>
+                <span style="flex-shrink: 0;">June 2024 — Present</span>
+              </div>
+              <p class="timeline-text">Developed NLP pipelines using Python and LLMs to classify cognitive concerns from clinical notes; conducted statistical analysis in R for a systematic review of SJS/TEN case reports.</p>
+            </li>
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Research Assistant — Columbia University Irving Medical Center</h4>
+                <span style="flex-shrink: 0;">August 2025 — Present</span>
+              </div>
+              <p class="timeline-text">Applied causal machine learning methods (Double ML, Causal Forests) and ensemble models to radiation epidemiology datasets from atomic-bomb survivors and U.S. nuclear worker cohorts.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Honors &amp; Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">MIT App Inventor Global Education Summit — Best Paper, Youth Category</h4>
+              <span style="flex-shrink: 0;">2026</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">Presidential AI Challenge — 1st Place High School State Champion, Massachusetts</h4>
+              <span style="flex-shrink: 0;">2026</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">Congressional App Challenge — 1st Place Winner, Massachusetts</h4>
+              <span style="flex-shrink: 0;">2025</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">MIT Global AI Hackathon — 1st Place Youth Team Winner</h4>
+              <span style="flex-shrink: 0;">2024</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">Massachusetts State &amp; Regional Science and Engineering Fair — 2x Qualifier</h4>
+              <span style="flex-shrink: 0;">2025 &amp; 2026</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">Scholastic Art &amp; Writing Awards — Silver Keys in Poetry and Journalism</h4>
+              <span style="flex-shrink: 0;">2026</span>
+            </li>
+
+            <li class="timeline-item" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+              <h4 class="h4 timeline-item-title" style="margin: 0;">Conrad Challenge — Conrad Innovator</h4>
+              <span style="flex-shrink: 0;">2026</span>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Leadership &amp; Community Service</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Lexington High School Fencing Team — Captain</h4>
+                <span style="flex-shrink: 0;">2024 — Present</span>
+              </div>
+              <p class="timeline-text">Mentored younger fencers, supported competition preparation, and fostered a collaborative and disciplined team culture.</p>
+            </li>
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Youth STEAM Initiative — Core Developer &amp; Grant Proposal Lead</h4>
+                <span style="flex-shrink: 0;">2023 — Present</span>
+              </div>
+              <p class="timeline-text">Authored successful grant proposals (Microsoft Nonprofit Grant, Community Endowment of Lexington). Built a civic-engagement AI chatbot and developed the official Cary Library fundraising platform, supporting a $750K renovation campaign.</p>
+            </li>
+
+            <li class="timeline-item">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <h4 class="h4 timeline-item-title" style="margin: 0;">Helpful Hands — Founder &amp; President</h4>
+                <span style="flex-shrink: 0;">2020 — Present</span>
+              </div>
+              <p class="timeline-text">Founded a youth-driven initiative providing clothing to 50+ families in local shelters through two drives per year. Established a two-year partnership with the Lexington MLK Jr. Committee.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
